@@ -48,7 +48,7 @@ while True:
     elif option == 4:
         print(lst)
         try:
-            update_id = int(input("Enter the ID of the task to be removed: "))
+            update_id = int(input("Enter the ID of the task to be updated: "))
             flag = False
             for task in lst:
                 if update_id == task['id']:
