@@ -173,33 +173,6 @@ Build a CLI to register, list, and update products, saving data to a text file.
 
 ---
 
-## Project 7: Text Adventure Game
-
-### Objective
-
-Develop a simple text-based adventure with multiple rooms and player choices.
-
-### Requirements
-
-* Define a map of rooms as a dictionary (each room has descriptions and direction options).
-* Allow the player to choose directions (north, south, east, west).
-* Display the current room’s description.
-* Include at least 5 interconnected rooms.
-
-### Optional Challenges
-
-* Add collectible items (track an inventory list).
-* Items that unlock doors.
-* Save/load game progress to a file.
-
-### Key Concepts
-
-* Nested dictionaries.
-* Control flow based on string input.
-* Data structures for an inventory list.
-
----
-
 ## How to Progress
 
 * Complete each project fully before moving to the next one.
