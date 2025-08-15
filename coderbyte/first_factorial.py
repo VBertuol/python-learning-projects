@@ -5,4 +5,4 @@ def FirstFactorial(num):
   return num * FirstFactorial(num - 1)
 
 # keep this function call here 
-print(FirstFactorial(input()))
+print(FirstFactorial(int(input())))
