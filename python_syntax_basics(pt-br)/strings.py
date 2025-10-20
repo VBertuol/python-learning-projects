@@ -30,8 +30,8 @@ string.endswith('olá') # = False
 # Método startswith()
 # Verifica se a string começa com a sub-string dada como argumento e retorna True ou False
 string = "olá mundo"
-string.endswith('do') # = False
-string.endswith('olá') # = True
+string.startswith('do') # = False
+string.startswith('olá') # = True
 
 # Método find()
 # Procura por uma substring e retorna o índice da primeira ocorrência desta substring.
@@ -59,27 +59,27 @@ string.isalnum() # False
 # Método isalpha()
 # Verifica se a string contém apenas letras e retorna True ou False
 string = "olámundo"
-string.isalnum() # True
+string.isalpha() # True
 string = "olámundo1"
-string.isalnum() # False
+string.isalpha() # False
 string = "olá mundo"
-string.isalnum() # False
+string.isalpha() # False
 
 # Método isdigit()
 # Verifica se a string contém apenas números e retorna True ou False
 string = "123"
-string.isalnum() # True
+string.isdigit() # True
 string = "123 "
-string.isalnum() # False
+string.isdigit() # False
 
 # Método islower()
 # Verifica se a string contém apenas letras minúsculas e retorna True ou False
 string = "olámundo"
-string.isalnum() # True
+string.islower() # True
 string = "Olámundo"
-string.isalnum() # False
+string.islower() # False
 string = "olá mundo"
-string.isalnum() # False
+string.islower() # False
 
 # Método isspace()
 # Verifica se a string contém apenas espaços em branco e retorna True ou False
